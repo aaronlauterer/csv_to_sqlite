@@ -8,7 +8,7 @@ The first line must be the header. It's values are used as column names in the t
 
 If the table already exists the script assumes that it is in the right format for the csv file and will insert the data into the table. This means that the csv files header matches the column names and the csv files fields will match the column data type.
 
-'''
+```
 usage: import_csv_to_sqlite.py [-h] csv database table
 
 Imports a CSV file into a SQLite3 database.
@@ -20,4 +20,4 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
-'''
+```
